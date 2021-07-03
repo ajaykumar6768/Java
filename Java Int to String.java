@@ -1,0 +1,26 @@
+import java.util.*;
+import java.security.*;
+public class Solution {
+ public static void main(String[] args) {
+
+  DoNotTerminate.forbidExit();
+
+  try {
+   Scanner in = new Scanner(System.in);
+   int n = in .nextInt();
+   in.close();
+   //String s=???; Complete this line below
+
+
+
+   //Write your code here
+            String s = String.valueOf(n);
+
+
+#Sample Input :
+    
+100
+ 
+#Sample Output :
+ 
+Good job
